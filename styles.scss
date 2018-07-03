@@ -1,0 +1,24 @@
+$harvard_color: #c90016;
+th
+{
+    background-color: $harvard_color;
+}
+
+%tone
+{
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.good {
+    @extend tone;
+}
+
+.medium {
+    @extend tone;
+}
+
+.bad {
+    @extend tone;
+}
+
